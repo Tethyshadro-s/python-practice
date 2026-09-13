@@ -23,3 +23,7 @@ capitals.pop("China")
 print(capitals)
 
 #capitals.clear()
+
+#item = capitals.items()
+for key, value in capitals.items():
+    print(f"{key}:{value}")
